@@ -1,0 +1,25 @@
+site_name: 植物日記
+theme:
+    name: material
+    palette:
+        primary: teal
+        accent: pink
+    features:
+        - navigation.tabs
+markdown_extensions:
+    - pymdownx.highlight
+    - pymdownx.superfences 
+    - pymdownx.tasklist:
+        custom_checkbox: true
+extra_css:
+    - stylesheets/extra.css
+plugins:
+    - awesome-pages
+    - search:
+        lang: ja
+    - tags:
+        tags_file: tags.md
+    - blog:
+        post_date_format: medium
+        blog_dir: .
+        blog_title: "My Wow"
