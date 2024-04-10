@@ -6,6 +6,8 @@ theme:
         accent: pink
     features:
         - navigation.tabs
+copyright: >
+  <a href="#__consent">Change cookie settings</a>
 markdown_extensions:
     - pymdownx.highlight
     - pymdownx.superfences 
@@ -13,6 +15,8 @@ markdown_extensions:
         custom_checkbox: true
 extra_css:
     - stylesheets/extra.css
+extra_javascript:
+    - js/consent.js
 plugins:
     - awesome-pages
     - search:
@@ -23,3 +27,10 @@ plugins:
         post_date_format: medium
         blog_dir: .
         blog_title: "My Wow"
+extra:
+    consent:
+        title: Consent to view externally hosted resources
+        description:
+            Images are hosted on imgur.com. By clicking accept, you agree to make requests to imgur.com to download these images. If you do not accept, then images on this site will not be visible.
+        cookies:
+            imgur: Imgur downloads

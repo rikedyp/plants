@@ -17,5 +17,7 @@ To do:
 - [x] site title: 植物日記
 - [ ] play with tags and categories
 - [ ] consider image hosting soln
+    - [x] imgur
+    - [x] [cookie consent for images](https://squidfunk.github.io/mkdocs-material/setup/ensuring-data-privacy/#cookie-consent)
 - [ ] import an old post
 - [ ] write a new post about...
