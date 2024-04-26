@@ -26,11 +26,12 @@ plugins:
     - blog:
         post_date_format: medium
         blog_dir: .
-        blog_title: "My Wow"
 extra:
     consent:
         title: Consent to view externally hosted resources
         description:
             Images are hosted on imgur.com. By clicking accept, you agree to make requests to imgur.com to download these images. If you do not accept, then images on this site will not be visible.
+            <br>
+            このサイトでは、画像の表示に imgur.com を利用しているため、デフォルトでは表示されません。画像表示には同意が必要です。「Accept」をクリックすると同意でき画像が表示されます。
         cookies:
             imgur: Imgur downloads
