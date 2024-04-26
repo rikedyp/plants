@@ -6,7 +6,12 @@ function replaceTag(source, target, replaceInner=false) {
         for (i=0; i<src.attributes.length; i++) {
             el.setAttribute(src.attributes.item(i).nodeName, src.attributes.item(i).nodeValue)
         }
-        if (replaceInner) { el.innerHTML = "Image: " + el.attributes.alt.value }
+        if (replaceInner) {
+            el.innerHTML = "Image: " + el.attributes.alt.value
+            href = document.createAttribute("href")
+            href.value = el.attributes.src.value
+            el.setAttributeNode(href)
+        }
         src.parentNode.replaceChild(el, src)
     })
 }
