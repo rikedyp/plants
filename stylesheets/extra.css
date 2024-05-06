@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+JP:wght@400;900&display=swap');
+@font-face {
+	font-family: 'Fairfax HD';
+	src:  url('https://raw.githubusercontent.com/rikedyp/rikedyp.github.io/master/assets/FairfaxHD.ttf') format('truetype');
+}
+:root {
+	--md-text-font: "Atkinson Hyperlegible", "Noto Sans JP";
+	--md-code-font: "Fairfax HD";
+}
+pre {
+	font-size: 1.4em;
+}
+
+@media screen and ( min-width: 992px ) {
+	img { max-height: 100vh!important; }
+}
